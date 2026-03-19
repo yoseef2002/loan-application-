@@ -1,0 +1,60 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #2c00a0;
+    width: 600px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+form h1{
+    font-size: 30px;
+}
+form hr{
+width: 100%;
+}
+form input,
+form select{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+}
+form select{
+    margin-bottom: 10px;
+}
+form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: blue; 
+    margin-top: 10px;
+}
+
+#model{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.506);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#model-content{
+    background-color: white;
+    color: green;
+    width: 90%;
+}
+.submit-btn {
+    background-color: #cd0275; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit-btn.disabled {
+    background-color:black;
+    cursor: not-allowed;
+}
